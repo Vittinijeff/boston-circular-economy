@@ -12,6 +12,11 @@ async def ping():
     return {"message": "pong"}
 
 
+@router.get("/ping2")
+async def ping2():
+    return {"message": "pong2"}
+
+
 @router.get(
     "/search",
     response_model=SearchResponse,
