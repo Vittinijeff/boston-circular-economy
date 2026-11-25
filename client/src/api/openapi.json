@@ -25,6 +25,25 @@
         }
       }
     },
+    "/api/v1/ping2": {
+      "get": {
+        "tags": [
+          "public"
+        ],
+        "summary": "Ping2",
+        "operationId": "ping2_api_v1_ping2_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/search": {
       "get": {
         "tags": [
